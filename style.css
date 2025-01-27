@@ -1,0 +1,77 @@
+h1,
+h2,
+h3 {
+    font-family: "Krona One", serif;
+    color: white;
+}
+
+p {
+    font-family: "Montserrat", serif;
+    color: white;
+}
+
+#container,
+#headerpage {
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.boxescontainer {
+    display: flex;flex-wrap: wrap; /* Allows items to wrap to the next row */
+}
+
+.boxescontainer li {
+    padding: 30px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.boxescontainer img {
+    width: 100%;
+}
+
+.boxescontainer h3,
+p {
+    padding: 10px 0;
+}
+
+.button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.button-container a {
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-container a:hover {
+
+    background-color: #0086a4;
+
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+    .boxescontainer li {
+        width: calc(50% - 10px); /* 2 items per row on medium screens */
+    }
+}
+
+@media (min-width: 900px) {
+    .boxescontainer li {
+        width: calc(33.333% - 14px); /* 3 items per row on larger screens */
+    }
+}

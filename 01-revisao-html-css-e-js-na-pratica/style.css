@@ -15,58 +15,29 @@ h1 {
     width: 300px;
 }
 
-.sidebar nav ul {
+.sidebar ul {
     margin-top: 20px;
     padding: 0 20px 10px 20px;
 }
 
-.sidebar nav ul li {
+.sidebar ul li {
     padding: 10px 0;
     position: relative;
-
 }
 
-.sidebar nav ul li a {
+.sidebar ul li a {
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
+    transition: 0.3s ease;
 }
 
-.sidebar nav ul li a:hover {
+.sidebar ul li a:hover {
     color: #fff;
 }
 
+.sidebar__nav,
 .library {
-    color: #b3b3b3;
-    font-weight: 600;
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.library button {
-    color: #b3b3b3;
-    font-weight: 600;
-    font-size: 14px;
-    background-color: #121212;
-    padding:0;
-}
-
-.library button:hover {
-    color: #fff;
-}
-.plus-style {
-    text-align: center;        
-    padding: 8px;    
-    border-radius: 50%;
-    
-    
-}
-.plus-style:hover {
-    color: #fff;
-    background-color: #000;
-}
-.sidebar__nav {
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -81,4 +52,48 @@ h1 {
 
 .sidebar__nav .logo img {
     width: 80px;
+}
+
+
+.library {
+    margin-top: 10px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.library div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library button {
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #121212;
+    padding: 0;
+    transition: 0.3s ease;
+}
+
+.library button:hover {
+    color: #fff;
+}
+
+.plus-style {
+    text-align: center;
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+
+}
+
+.plus-style:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.margin-top-zero,
+ul.margin-top-zero {
+    margin-top: 0;
 }
