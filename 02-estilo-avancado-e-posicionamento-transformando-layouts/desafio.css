@@ -1,0 +1,31 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(to right, #ad2896, #509bf5);
+    left: 0;
+    right: 0;    
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.footer .footer__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;   
+}
+
+.footer .footer__text span{
+    text-transform: uppercase;
+}
+
+.footer .footer__button{
+    color: #000;    
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
