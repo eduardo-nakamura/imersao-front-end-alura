@@ -26,3 +26,11 @@ Continuação do menu lateral + footer.
 - Desafio: Fazer o footer da página.
 
 https://github.com/eduardo-nakamura/imersao-front-end-alura/tree/main/02-estilo-avancado-e-posicionamento-transformando-layouts
+
+## Aula 03: Layout Flexbox, Pseudo-classes e Responsividade em CSS
+Refatoração do código
+- Criação de um css com variáveis
+- Criação de um header nav com input de pesquisa, botões de navegação, inscrição e login.
+- Desafio: fazer o container das músicas
+
+https://github.com/eduardo-nakamura/imersao-front-end-alura/tree/main/03-layout-flexbox-pseudo-classes-e-responsividade-em-css
