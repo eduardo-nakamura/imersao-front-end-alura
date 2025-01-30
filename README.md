@@ -40,5 +40,5 @@ Responsividade do grid
 - Criação de um css de Media Queries
 - instalação do json-server
 - request da api e atualizar a tela de acordo com o resultado
-- desafio: Gerar outra api para testar
+- desafio: Fiz um JSON com os dados das playlists e popula os cards com as informações do json
 https://github.com/eduardo-nakamura/imersao-front-end-alura/tree/main/04-css-grid-media-queries-e-manipulacao-do-dom-com-javascript
