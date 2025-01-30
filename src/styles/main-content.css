@@ -91,7 +91,7 @@
     border-radius: 40px;
 }
 
-.music__container {
+.playlist-container {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -103,20 +103,53 @@
     height: 60vh;
 }
 
-.music__container h1 {
+.playlist h1 {
     font-size: 32px;
     margin-bottom: 50px;
 }
 
-.music__container h2 {
+.playlist h2 {
     font-size: 22px;
     margin-bottom: 30px;
 }
 
-.music__selection {
+
+
+.offer__scroll-container{
+    max-height: 43vh;
+    margin: 12px 0;
+    overflow-y: auto;
+}
+
+.offer__list-item{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:16px;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.cards {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
     background-color: red;
-    height: 60000px;
-    overflow: auto;
-    width: 100%;
-    max-height: 100vh;
+}
+.cards span{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    position: absolute;    
+    top: 10px;
+    left: 10px;
+}
+.cards img{
+    transform: rotate(30deg);
+    width: 140px;    
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

@@ -34,3 +34,9 @@ Refatoração do código
 - Desafio: fazer o container das músicas
 
 https://github.com/eduardo-nakamura/imersao-front-end-alura/tree/main/03-layout-flexbox-pseudo-classes-e-responsividade-em-css
+
+## Aula 04: CSS Grid, Media Queries e Manipulação do DOM com JavaScript
+Responsividade do grid
+- Criação de um css de Media Queries
+- instalação do json-server
+https://github.com/eduardo-nakamura/imersao-front-end-alura/tree/main/04-css-grid-media-queries-e-manipulacao-do-dom-com-javascript
