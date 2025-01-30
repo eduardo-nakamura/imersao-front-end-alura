@@ -39,4 +39,6 @@ https://github.com/eduardo-nakamura/imersao-front-end-alura/tree/main/03-layout-
 Responsividade do grid
 - Criação de um css de Media Queries
 - instalação do json-server
+- request da api e atualizar a tela de acordo com o resultado
+- desafio: Gerar outra api para testar
 https://github.com/eduardo-nakamura/imersao-front-end-alura/tree/main/04-css-grid-media-queries-e-manipulacao-do-dom-com-javascript

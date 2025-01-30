@@ -14,9 +14,11 @@ function requestApi(searchTerm) {
 function displayResults(res){
     resultPlaylists.classList.add('hidden');
     const artistName = document.getElementById('artist-name');
+    const artistCategory = document.getElementById('artist-categorie');
     const artistImage = document.getElementById('artist-img');
     res.forEach(element => {
         artistName.innerText = element.name;
+        artistCategory.innerText = element.genre;
         artistImage.src = element.urlImg;
     });
 
@@ -25,7 +27,7 @@ function displayResults(res){
 
 document.addEventListener('input', () => {
     const searchVal = searchInput.value.toLowerCase();
-    console.log(searchVal === '');
+   
     if (searchVal === '') {
         resultPlaylists.classList.remove('hidden');
         resultArtists.classList.add('hidden');
