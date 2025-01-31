@@ -1,7 +1,7 @@
 /* header */
 .main-container {
     max-width: 80vw;
-    height: 100vh;
+    /* height: 100vh; */
     margin-left: 320px;
     margin-right: 56px;
 }
@@ -100,7 +100,7 @@
     color: #ffffff;
 
     padding: 32px;
-    height: 60vh;
+    /* height: 60vh; */
 }
 
 .playlist h1 {

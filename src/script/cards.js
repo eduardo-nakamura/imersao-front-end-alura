@@ -1,3 +1,4 @@
+const cardContainer = document.getElementById("cardsContainer");
 function cardsData() {
     fetch('http://localhost:3000/cards') // Replace with your API endpoint
     .then(response => {
@@ -16,8 +17,8 @@ function cardsData() {
 
 
 function createCards(data) {
-    console.log(data);
-    const cardContainer = document.getElementById("cardsContainer");
+
+    console.log(cardsContainer);
     cardsContainer.innerHTML = '';
     data.forEach(item => {
           // Create the card structure
