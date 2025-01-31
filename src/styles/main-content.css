@@ -102,7 +102,30 @@
     padding: 32px;
     /* height: 60vh; */
 }
+.music__container{
+    display: flex;
+    flex-direction: column;    
+    padding: 16px;
+    margin:  17px;
+    border-radius: 8px;
+    background-color: var(--color-box-container);
+    color: white;
+}
+.music__container h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 24px 0 48px;
 
+}
+.music__container h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.music__selection{
+    padding: 10px;
+    background-color: red;
+}
 .playlist h1 {
     font-size: 32px;
     margin-bottom: 50px;
